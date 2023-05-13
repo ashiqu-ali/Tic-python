@@ -9,9 +9,9 @@ This is a simple implementation of the classic game Tic Tac Toe using Python and
 
 ## How to Run
 
-1. Clone this repository to your local machine or download the `tictactoe.py` file.
-2. Open a terminal and navigate to the directory where the `tictactoe.py` file is located.
-3. Run the command `python tictactoe.py` or `python3 tictactoe.py` (depending on your Python installation).
+1. Clone this repository to your local machine or download the `tic.py` file.
+2. Open a terminal and navigate to the directory where the `tic.py` file is located.
+3. Run the command `python tic.py` or `python3 tic.py` (depending on your Python installation).
 
 ## How to Play
 
@@ -22,11 +22,11 @@ This is a simple implementation of the classic game Tic Tac Toe using Python and
 
 ## Game Interface
 
-![Tic Tac Toe UI](/images/tictactoe.png)
+![Tic Tac Toe UI](/images/tic.png)
 
 ## Implementation Details
 
-The `tictactoe.py` file contains a `Tkinter` GUI interface with 9 buttons representing the game board. The state of each button is tracked using a global variable. When a button is clicked, the corresponding state is updated to "X" or "O" depending on whose turn it is. 
+The `tic.py` file contains a `Tkinter` GUI interface with 9 buttons representing the game board. The state of each button is tracked using a global variable. When a button is clicked, the corresponding state is updated to "X" or "O" depending on whose turn it is. 
 
 After each move, the program checks if either player has won the game. If a player has won, a message box is displayed declaring the winner and all buttons are disabled. If the game ends in a tie, a message box is displayed indicating the tie and all buttons are disabled. 
 
