@@ -30,4 +30,4 @@ The `tic.py` file contains a `Tkinter` GUI interface with 9 buttons representing
 
 After each move, the program checks if either player has won the game. If a player has won, a message box is displayed declaring the winner and all buttons are disabled. If the game ends in a tie, a message box is displayed indicating the tie and all buttons are disabled. 
 
-The program also contains a `disable_all_buttons()` function that disables all buttons on the game board, and a `checkifwon()` function that checks if either player has won the game.
+The program also contains a `disable_all_buttons()` function that disables all buttons on the game board, and a `checkifwon()` function that checks if either player has won the game
